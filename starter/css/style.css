@@ -3,17 +3,58 @@
 }
 */
 
+/*  background colour to body */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: rgba(112, 107, 107, 0.911);
+}
+
+/* added css to header */
+header {
+  display:flex;
+  background-color: black;
+  padding: 20px;
+  
+  
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: black;
+  font-size: 32px;
+}
+
+.page-section{
+  background-color: white;
+}
+.page-section h2  {
+  color: black;
+}
+
+.page-section p {
+  color: black;
+}
+
+
+
+/* added CSS to h2 */
+.hero-banner h2 {
+  float: right;
+  color: black;
+  font-size: 30px;
 }
 
 /* added nav CSS */
 
 nav {
 list-style-type: none;
+display: inline;
 margin: 0;
 padding: 0;
 position: absolute;
@@ -26,7 +67,7 @@ nav a {
   display: inline-flex;
   font-size: 34px;
   display: inline;
-color: black;
+color: white;
 text-align: center;
 padding: 10px 15px ;
 text-decoration: none;
@@ -35,8 +76,23 @@ text-decoration: none;
 
 /* added nav a;hover CSS */
 nav a:hover {
-  background-color: blueviolet;
+  background-color: darkgrey;
 }
+
+/* added CSS to hero banner */
+
+.hero-banner {
+  padding: 60px 30px; 
+  background-image: url(../images/02-hero-bg.jpg);
+  
+}
+
+/* added CSS to page-wrapper */
+.page-wrapper {
+  padding: 60px 30px;
+
+}
+
 
 h1,
 h2,
@@ -47,8 +103,20 @@ h6 {
   margin: 0;
 }
 
+img {
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
 p {
-  margin: 0;
+  margin: 10px;
+  font-size: 28px;
+  display: inline-flex;
+  align-items: flex-end;
 }
 
 /* added css for grid */
@@ -60,6 +128,7 @@ p {
     'footer footer footer right right right';
   gap: 10px;
   padding: 10px;
+  background-color: aqua;
   
 }
 
@@ -67,6 +136,7 @@ p {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 150px 0;
+  margin: 15px;
   font-size: 30px;
 }
 
@@ -74,23 +144,69 @@ p {
 .item1 
 { grid-area: header;
 background: url(../images/02-portfolio-4.jpg);
-
+background-position: center;
+background-size: cover;
+align-items: center;
+display: flex;
+position: relative;
 }
 
 .item2 
 { grid-area: menu;
 background: url(../images/02-portfolio-1.jpg);
-background-size: contain; 
+background-position: center;
+background-size: cover;
+align-items: center;
+display: flex;
+position: relative;
 }
 
 .item3 {
 grid-area: main; 
-background: url(../images/02-portfolio-3.jpg);}
+background: url(../images/02-portfolio-2.jpg);
+background-position: center;
+background-size: cover;
+align-items: center;
+display: flex;
+position: relative;
+}
 
 .item4 
 { grid-area: right; 
-background: url(../images/02-portfolio-2.jpg);}
+background: url(../images/02-portfolio-3.jpg);
+background-position: center;
+background-size: cover;
+align-items: center;
+display: flex;
+position: relative;
+}
 
 .item5 
 { grid-area: footer;
-background: url(../images/02-run-buddy.jpg); }
+background: url(../images/02-run-buddy.jpg); 
+background-position: center;
+background-size: cover;
+align-items: center;
+display: flex;
+position: relative;
+}
+
+.page-section-contact {
+  background-color: purple;
+}
+
+.page-section-contact h2 {
+  display: inline-flex;
+  font-size: 34px;
+  padding: 25px;
+}
+li {
+  color: black;
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 34px;
+}
+
+li a {
+  color: black;
+}
