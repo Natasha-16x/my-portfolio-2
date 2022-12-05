@@ -81,7 +81,7 @@ h2 {
 .hero-banner h2 {
   float: right;
   color: black;
-  font-size: 30px;
+  font-size: 46px;
 }
 
 /* added nav CSS */
@@ -244,3 +244,10 @@ li {
 li a {
   color: white;
 }
+
+h3 {
+  color: white;
+  font-size: 34px;
+}
+
+@media screen and (min-width: 480px) {}
