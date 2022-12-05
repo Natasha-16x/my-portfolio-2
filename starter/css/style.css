@@ -3,13 +3,27 @@
 }
 */
 
+
+header {
+  background-color: rgba(112, 107, 107, 0.911);
+  background-size: cover;
+  
+}
+
+
+.header-section {
+  display: flex;
+  background-color: rgba(24, 24, 27, 0.966);
+}
+
+
 /*  background colour to body */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: rgba(112, 107, 107, 0.911);
+  background-color: rgba(24, 24, 27, 0.966);
 }
 
 /* added css to header */
@@ -21,8 +35,17 @@ header {
   
 }
 
+
 h1 {
   color: white;
+  padding-top: 150px;
+  background-image: url(../images/8D24B4E8-3708-48AC-A79F-B1B86DF545AE\ \(1\).JPG);
+  background: url(../images/8D24B4E8-3708-48AC-A79F-B1B86DF545AE\ \(1\).JPG);
+  background-position: center;
+background-size: cover;
+align-items: center;
+display: flex;
+position: relative;
 }
 
 h2 {
@@ -31,14 +54,25 @@ h2 {
 }
 
 .page-section{
-  background-color: white;
+  background-color: rgba(24, 24, 27, 0.966);
 }
+
+  .page-section img {
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+
 .page-section h2  {
-  color: black;
+  color: white;
 }
 
 .page-section p {
-  color: black;
+  color: white;
+  display: flex;
+  align-items: flex-end;
 }
 
 
@@ -66,10 +100,10 @@ right: 200px
 nav a {
   display: inline-flex;
   font-size: 34px;
-  display: inline;
 color: white;
 text-align: center;
-padding: 10px 15px ;
+padding: 10px 15px;
+margin-top: 50px;
 text-decoration: none;
 }
 
@@ -90,6 +124,7 @@ nav a:hover {
 /* added CSS to page-wrapper */
 .page-wrapper {
   padding: 60px 30px;
+  background-color: rgba(24, 24, 27, 0.966);
 
 }
 
@@ -103,15 +138,7 @@ h6 {
   margin: 0;
 }
 
-img {
-  background-position: center;
-  background-size: cover;
-  align-items: center;
-  display: flex;
-  position: relative;
-  width: 400px;
-  height: 200px;
-}
+
 p {
   margin: 10px;
   font-size: 28px;
@@ -128,12 +155,12 @@ p {
     'footer footer footer right right right';
   gap: 10px;
   padding: 10px;
-  background-color: aqua;
+  background-color: white;
   
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(24, 24, 27, 0.966);
   text-align: center;
   padding: 150px 0;
   margin: 15px;
@@ -192,21 +219,28 @@ position: relative;
 }
 
 .page-section-contact {
-  background-color: purple;
+  background-color: white;
 }
 
 .page-section-contact h2 {
-  display: inline-flex;
+  display: flex;
+  align-items: flex-start;
   font-size: 34px;
-  padding: 25px;
+  color: black;
+}
+
+
+.page-section-contact nav {
+  display: flex;
+  align-items: flex-end;
 }
 li {
-  color: black;
+  color: white;
   list-style-type: none;
   display: inline-flex;
   font-size: 34px;
 }
 
 li a {
-  color: black;
+  color: white;
 }
