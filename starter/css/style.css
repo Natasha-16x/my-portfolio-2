@@ -10,6 +10,34 @@ body {
   line-height: 1.5;
 }
 
+/* added nav CSS */
+
+nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: absolute;
+right: 200px
+}
+
+
+/* added nav a CSS */
+nav a {
+  display: inline-flex;
+  font-size: 34px;
+  display: inline;
+color: black;
+text-align: center;
+padding: 10px 15px ;
+text-decoration: none;
+}
+
+
+/* added nav a;hover CSS */
+nav a:hover {
+  background-color: blueviolet;
+}
+
 h1,
 h2,
 h3,
@@ -22,3 +50,47 @@ h6 {
 p {
   margin: 0;
 }
+
+/* added css for grid */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu menu main main main'
+    'footer footer footer right right right';
+  gap: 10px;
+  padding: 10px;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 150px 0;
+  font-size: 30px;
+}
+
+
+.item1 
+{ grid-area: header;
+background: url(../images/02-portfolio-4.jpg);
+
+}
+
+.item2 
+{ grid-area: menu;
+background: url(../images/02-portfolio-1.jpg);
+background-size: contain; 
+}
+
+.item3 {
+grid-area: main; 
+background: url(../images/02-portfolio-3.jpg);}
+
+.item4 
+{ grid-area: right; 
+background: url(../images/02-portfolio-2.jpg);}
+
+.item5 
+{ grid-area: footer;
+background: url(../images/02-run-buddy.jpg); }
