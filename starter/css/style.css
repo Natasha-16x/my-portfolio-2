@@ -71,8 +71,8 @@ h2 {
 
 /* added CSS to h2 */
 .hero-banner h2 {
-  float: right;
-  color: black;
+  float:inline-start;
+  color: whitesmoke;
   font-size: 46px;
 }
 

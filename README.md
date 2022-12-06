@@ -13,7 +13,7 @@ This is my portfolio of work, aimed to showcase the skills that I have learnt th
 - [license](#license)
 
 ## Screenshot 
-![screenshot of my portfolio](./starter/images/screencapture-file-C-Users-user-Desktop-bootcamp-week2-attempt-2-weekly-challenge-my-portfolio-2-index-html-2022-12-06-00_09_28.png)
+![screenshot of my portfolio](./starter/images/screencapture-file-C-Users-user-Desktop-bootcamp-week2-attempt-2-weekly-challenge-my-portfolio-2-index-html-2022-12-06-19_30_35.png)
 
 ## Link to the deployed site 
 [my portfolio](https://natasha-16x.github.io/my-portfolio-2/)
