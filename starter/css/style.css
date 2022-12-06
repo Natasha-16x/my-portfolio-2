@@ -3,13 +3,11 @@
 }
 */
 
-
+/* added CSS styles to header */
 header {
   background-color: rgba(112, 107, 107, 0.911);
   background-size: cover;
-  
 }
-
 
 .header-section {
   display: flex;
@@ -17,7 +15,7 @@ header {
 }
 
 
-/*  background colour to body */
+/* added background colour to body */
 body {
   margin: 0;
   padding: 0;
@@ -35,7 +33,7 @@ header {
   
 }
 
-
+/* added image to h1 element and applied css styles to h1 */
 h1 {
   color: white;
   padding-top: 150px;
@@ -53,17 +51,11 @@ h2 {
   font-size: 32px;
 }
 
+/* added CSS styles to page-section */
 .page-section{
   background-color: rgba(24, 24, 27, 0.966);
 }
 
-  .page-section img {
-    background-position: center;
-    background-size: cover;
-    align-items: center;
-    display: flex;
-    position: relative;
-  }
 
 .page-section h2  {
   color: white;
@@ -108,7 +100,8 @@ text-decoration: none;
 }
 
 
-/* added nav a;hover CSS */
+/* added nav a;hover CSS - this makes the nav elements highlight grey when hovering 
+over that element */
 nav a:hover {
   background-color: darkgrey;
 }
@@ -125,17 +118,6 @@ nav a:hover {
 .page-wrapper {
   padding: 60px 30px;
   background-color: rgba(24, 24, 27, 0.966);
-
-}
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
 }
 
 
@@ -167,7 +149,7 @@ p {
   font-size: 30px;
 }
 
-
+/* added images and CSS styling to each grid item */
 .item1 
 { grid-area: header;
 background: url(../images/02-portfolio-4.jpg);
@@ -250,6 +232,7 @@ h3 {
   font-size: 34px;
 }
 
+/* added media queries to scale webpage to fit different size screens */
 @media screen and (min-width: 480px) {}
 @media screen and (max-device-width: 640px) {}
 @media screen and (min-width: 768px) {}
