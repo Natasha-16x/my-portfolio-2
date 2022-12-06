@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my portfolio of work, aimed to showcase the skills that I have learn throughout my time in the front-end web developer bootcamp. This porfolio has links that will naviagte you to my deployed web applications, enabling you to review each one.
+This is my portfolio of work, aimed to showcase the skills that I have learnt throughout my time in the front-end web developer bootcamp. This porfolio has links that will naviagte you to the coresponding section in the webpage. The website also highlights my deployed web applications, enabling you to review each one.
 
 ## Table of contents 
 - [screenshot](#screenshot)
@@ -21,7 +21,7 @@ This is my portfolio of work, aimed to showcase the skills that I have learn thr
 N/a
 
 ## Usage 
-To use my portfolio, you can naviagte to each deployed application by clicking on the place holder image in each section.
+To use my portfolio, there is a navigation header which takes you to the corresponding section in the webpage when clicked. You can also naviagte to each deployed application by clicking on the place holder image in each section.
 
 ## Credits
 N/A
